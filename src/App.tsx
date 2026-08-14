@@ -19,6 +19,9 @@ import AusleiheDetailPage from '@/pages/AusleiheDetailPage';
 import ReparaturWartungPage from '@/pages/ReparaturWartungPage';
 import ReparaturWartungDetailPage from '@/pages/ReparaturWartungDetailPage';
 // <custom:imports>
+const IntentWerkzeugAusleihenPage = lazy(() => import('@/pages/intents/WerkzeugAusleihenPage'));
+const IntentWerkzeugZurueckgebenPage = lazy(() => import('@/pages/intents/WerkzeugZurueckgebenPage'));
+const IntentReparaturWartungErfassenPage = lazy(() => import('@/pages/intents/ReparaturWartungErfassenPage'));
 // </custom:imports>
 
 // Lazy: public pages live outside <Layout> and only load on /#/public/:slug —
@@ -69,6 +72,9 @@ export default function App() {
                 <Route path="admin" element={<AdminPage />} />
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 {/* <custom:routes> */}
+                <Route path="intents/werkzeug-ausleihen" element={<Suspense fallback={null}><IntentWerkzeugAusleihenPage /></Suspense>} />
+                <Route path="intents/werkzeug-zurueckgeben" element={<Suspense fallback={null}><IntentWerkzeugZurueckgebenPage /></Suspense>} />
+                <Route path="intents/reparatur-wartung-erfassen" element={<Suspense fallback={null}><IntentReparaturWartungErfassenPage /></Suspense>} />
                 {/* </custom:routes> */}
               </Route>
             </Routes>

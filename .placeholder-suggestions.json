@@ -1,0 +1,43 @@
+{
+  "HandwerkerDialog.tsx": {
+    "vorname": "z. B. Hans",
+    "nachname": "z. B. Müller",
+    "personalnummer": "z. B. PNR-001",
+    "telefon": "z. B. +49 30 123456",
+    "email": "z. B. hans.mueller@example.com",
+    "abteilung": "z. B. Elektroinstallation",
+    "status": "Wähle einen Status",
+    "bemerkungen": "Besonderheiten, Fähigkeiten, Notizen..."
+  },
+  "WerkzeugeDialog.tsx": {
+    "werkzeugname": "z. B. Bohrmaschine DeWalt",
+    "inventarnummer": "z. B. INV-2026-0001",
+    "kategorie": "Wähle eine Kategorie",
+    "hersteller": "z. B. DeWalt",
+    "modell": "z. B. DCD791D2",
+    "kaufdatum": "Wann wurde gekauft?",
+    "zustand": "Wie ist der Zustand?",
+    "standort": "z. B. Werkstatt A, Schrank 2",
+    "bemerkungen": "Zubehör, Besonderheiten, Wartungsintervalle..."
+  },
+  "AusleiheDialog.tsx": {
+    "handwerker": "Welcher Handwerker?",
+    "werkzeug": "Welches Werkzeug?",
+    "ausleihdatum": "Wann beginnt die Ausleihe?",
+    "geplanes_rueckgabedatum": "Wann soll zurückgegeben werden?",
+    "tatsaechliches_rueckgabedatum": "Wann wurde tatsächlich zurückgegeben?",
+    "status": "Wähle einen Status",
+    "bemerkungen": "Besonderheiten, Transportmittel, Schäden..."
+  },
+  "ReparaturWartungDialog.tsx": {
+    "werkzeug": "Welches Werkzeug?",
+    "art": "Wähle Maßnahmen-Art",
+    "beschreibung": "Was ist zu reparieren/warten? Mangel beschreiben...",
+    "startdatum": "Wann beginnt die Maßnahme?",
+    "enddatum": "Wann ist es fertig?",
+    "verantwortlicher_handwerker": "Wer führt die Maßnahme durch?",
+    "status": "Wähle einen Status",
+    "kosten": "z. B. 150,00",
+    "bemerkungen": "Ersatzteile, Material, Besonderheiten..."
+  }
+}

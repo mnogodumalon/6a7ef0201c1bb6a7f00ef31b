@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "Handwerker": {
+      "placeholders_set": 8,
+      "defaults_keys": ["status"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Identifikation, Kontakt, Organisation) ohne Preisfelder oder Datumspaare — nichts berechenbar"
+    },
+    "Werkzeuge": {
+      "placeholders_set": 9,
+      "defaults_keys": ["kategorie", "zustand"],
+      "computed_keys": [],
+      "reason": "Inventarverwaltung ohne Preise, Mengen oder Datumspaare — kein Archetyp zutreffend"
+    },
+    "Ausleihe": {
+      "placeholders_set": 7,
+      "defaults_keys": ["status"],
+      "computed_keys": ["_ausleihe_dauer_tage"],
+      "reason": "Vermietungs-Ausleihform mit Datumspaar (Ausleihdatum/geplanes Rückgabedatum) — virtuelle Dauer-Berechnung für Informationszwecke"
+    },
+    "Reparatur & Wartung": {
+      "placeholders_set": 9,
+      "defaults_keys": ["art", "status"],
+      "computed_keys": ["_reparatur_dauer_tage"],
+      "reason": "Wartungs-Tracking mit Datumspaar (Start/Ende) — virtuelle Dauer-Berechnung; Kosten-Feld bleibt manuell (keine Preis-Relation)"
+    }
+  }
+}

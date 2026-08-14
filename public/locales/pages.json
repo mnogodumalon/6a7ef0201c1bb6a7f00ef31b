@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "en": {
+      "Abschließen": "Complete",
+      "Aktive Ausleihen": "Active Loans",
+      "Aktive Handwerker": "Active Craftsmen",
+      "Alles im grünen Bereich — keine Überfälligkeiten.": "All clear — no overdue items.",
+      "Ausgeliehen": "Checked Out",
+      "Ausleihe erfassen": "Log Loan",
+      "Defekt / Außer Betrieb": "Defective / Out of Service",
+      "Eintrag": "Entry",
+      "Handwerker": "Craftsman",
+      "In Bearbeitung setzen": "Set In Progress",
+      "Keine aktiven Ausleihen — alle Werkzeuge verfügbar.": "No active loans — all tools available.",
+      "Maßnahme erfassen": "Log Action",
+      "Noch keine Werkzeuge im System.": "No tools in the system yet.",
+      "Noch keine Werkzeuge — erstes Werkzeug anlegen.": "No tools yet — add the first tool.",
+      "Rückgabe eintragen": "Log Return",
+      "Unbekannt": "Unknown",
+      "Unbekanntes Werkzeug": "Unknown Tool",
+      "Werkzeug": "Tool",
+      "Werkzeug anlegen": "Add Tool",
+      "Werkzeuge — Zustand": "Tools — Condition",
+      "Zurückgeben": "Return",
+      "bis": "until",
+      "ist überfällig": "is overdue",
+      "offene Maßnahme": "open action",
+      "offene Maßnahmen": "open actions",
+      "sind überfällig": "are overdue",
+      "zurückgegeben": "returned",
+      "— Rückgabe war fällig am {0}.": "— Return was due on {0}.",
+      "— Rückgaben überfällig.": "— Returns overdue."
+    }
+  },
+  "v": 1
+}
